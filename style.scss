@@ -1,0 +1,104 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-weight: normal;
+    line-height: 1.5;
+    color: rgb(207, 207, 207);
+}
+
+h2 {
+    line-height: 1.2;
+}
+
+a {
+    display: inline-block;
+    color: aqua;
+}
+
+.container {
+    width: 945px;
+    max-width: 95%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.button {
+    position: relative;
+    // bottom: 20px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid transparent;
+
+}
+
+.button .blue {
+    color: rgb(94, 178, 235);
+}
+.button .green{
+    color: rgb(139, 250, 163);
+}
+.button .red {
+    color: rgb(226, 107, 107);
+}
+
+.button:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition-duration: 0.4s;    
+}
+
+.blue {
+    background-color: rgba(94, 179, 235, 0.8);
+}
+
+.red {
+    background-color: rgba(226, 107, 107, 0.8);
+}
+
+.green {
+    background-color: rgba(87, 209, 114, 0.8);
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    padding: 180px 0px;
+    background-color: grey;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+.card {
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+    padding: 40px;
+    margin: 3px;
+    h2 {
+        margin: 40px 0;
+        font-size: 2rem;
+        color: white;
+    }
+    p {
+        margin-bottom: 90px;
+    }
+}
+
+.card:hover {
+    transform: scale(1.07);
+}

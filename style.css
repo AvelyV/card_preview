@@ -1,0 +1,115 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-weight: normal;
+  line-height: 1.5;
+  color: #cfcfcf;
+}
+
+h2 {
+  line-height: 1.2;
+}
+
+a {
+  display: inline-block;
+  color: aqua;
+}
+
+.container {
+  width: 945px;
+  max-width: 95%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.button {
+  position: relative;
+  padding: 12px 30px;
+  border-radius: 50px;
+  background-color: white;
+  border: 2px solid transparent;
+}
+
+.button .blue {
+  color: #5eb2eb;
+}
+
+.button .green {
+  color: #8bfaa3;
+}
+
+.button .red {
+  color: #e26b6b;
+}
+
+.button:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.blue {
+  background-color: rgba(94, 179, 235, 0.8);
+}
+
+.red {
+  background-color: rgba(226, 107, 107, 0.8);
+}
+
+.green {
+  background-color: rgba(87, 209, 114, 0.8);
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  padding: 180px 0px;
+  background-color: grey;
+}
+
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  width: 300px;
+  max-width: 90%;
+  height: auto;
+  padding: 40px;
+  margin: 3px;
+}
+
+.card h2 {
+  margin: 40px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.card p {
+  margin-bottom: 90px;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+/*# sourceMappingURL=style.css.map */
