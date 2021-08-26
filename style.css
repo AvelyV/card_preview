@@ -40,16 +40,19 @@ a {
   border: 2px solid transparent;
 }
 
-.button .blue {
+.blue .button {
   color: #5eb2eb;
+  text-decoration: none;
 }
 
-.button .green {
+.green .button {
   color: #8bfaa3;
+  text-decoration: none;
 }
 
-.button .red {
+.red .button {
   color: #e26b6b;
+  text-decoration: none;
 }
 
 .button:hover {

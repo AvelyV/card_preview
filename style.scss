@@ -40,15 +40,17 @@ a {
     border: 2px solid transparent;
 
 }
-
-.button .blue {
+.blue .button {
     color: rgb(94, 178, 235);
+    text-decoration: none;
 }
-.button .green{
+.green .button{
     color: rgb(139, 250, 163);
+    text-decoration: none;
 }
-.button .red {
+.red .button {
     color: rgb(226, 107, 107);
+    text-decoration: none;
 }
 
 .button:hover {
